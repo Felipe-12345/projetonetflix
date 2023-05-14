@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+		.container {
+			position: relative;
+			height: 500px;
+			background-image: url(fundos/240dc316-18ed-42d1-b3ed-4ddff220cd1a.jpg);
+			background-size: cover;
+			background-position: center center;
+		}
+		.texto {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			text-align: center;
+		}
+		.texto h1 {
+			font-size: 40px;
+			margin-bottom: 20px;
+		}
+		.texto p {
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="texto">
+			<h1>Título da minha div com imagem de fundo</h1>
+			<p>Descrição da minha div com imagem de fundo</p>
+		</div>
+	</div>
+
+</html>
