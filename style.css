@@ -41,9 +41,9 @@ img {
 
 
 main {
-    min-width: 100%;
+    min-width: 320px;
     max-width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(41, 40, 40);
     margin: auto;
     margin-top: 25%;
     height: 300px;
