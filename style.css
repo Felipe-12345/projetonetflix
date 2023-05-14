@@ -66,7 +66,10 @@ main h1 {
     border-radius: 5px;
     margin-top: 22px;
     margin-left: 20px;
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.212);
+    
+}
+.ft1:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
 
 .ft2{
@@ -77,7 +80,10 @@ main h1 {
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 12px;
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.219);
+    
+}
+.ft2:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
 
 .ft3{
@@ -88,7 +94,10 @@ main h1 {
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.199);
+    
+}
+.ft3:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
 
 .ft4{
@@ -99,7 +108,9 @@ main h1 {
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.178);
+}
+.ft4:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
 
 .ft5 {
@@ -110,5 +121,7 @@ main h1 {
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.158);
+}
+.ft5:hover {
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
