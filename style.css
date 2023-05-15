@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: rgb(113, 0, 219);
+    background-color: rgb(223, 83, 3);
     font-family: arial;
     height: 100%;
     
@@ -83,12 +83,14 @@ main {
     min-width: 320px;
     max-width: 100%;
     background-color: rgb(2, 2, 2);
-    margin: auto;
-    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: calc(35% - 250px);
+    vertical-align: middle;
     height: 250px;
     width: 600px;
     border-radius: 8px;
-    margin-top: calc(45% - 250px);
+    
 }
 
 div h1 {
