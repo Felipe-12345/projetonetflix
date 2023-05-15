@@ -77,8 +77,8 @@ img {
 
 .pai{
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: center;  /*crie uma div pai e coloque tudo no fillho*/
+align-items: center;      /* ai coloca isso pra centralziar e para n bagulnçar*/
 height: 100;
 }
 
@@ -88,7 +88,7 @@ height: 100;
     
     min-width: 320px;
     max-width: 100%;
-    background-color: rgb(194, 87, 87);
+    background-color: rgb(0, 0, 0);
     margin-right: auto;
     margin-left: auto;
     margin-top: 300px;
