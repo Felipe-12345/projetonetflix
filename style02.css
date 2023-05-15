@@ -78,6 +78,7 @@ body {
  }
 
  .assistir {
+   color: black;
     position: absolute;
     top: 490px;
     left: 50px;
@@ -90,6 +91,11 @@ body {
     font-weight: bold;
     font-size: 17px;
     
+ }
+
+ .assistir a {
+   text-decoration: none;
+   color: black;
  }
  
  
@@ -110,3 +116,29 @@ h1{
     padding:1px ;
     margin: 1px;
 }
+
+.pai2 {
+   display: flex;
+   justify-content: center;  /*crie uma div pai e coloque tudo no fillho*/
+   align-items: center;      /* ai coloca isso pra centralziar e para n bagulnçar*/
+   height: 100;
+}
+
+.n {
+   height: 30px;
+   width: 30px;  
+   margin 
+}
+.m {
+   border-radius: 10px;
+}
+
+.lista1 {
+   display: flex;
+   background-color: darkgray;
+   margin-top: 10px;
+   height: 210px;
+   width: 100%;
+   padding-top: 10px;
+}
+
