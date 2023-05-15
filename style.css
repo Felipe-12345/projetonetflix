@@ -75,14 +75,20 @@ img {
 
 
 
+.pai{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100;
+}
 
-main {
+.filho {
    
     
     
     min-width: 320px;
     max-width: 100%;
-    background-color: rgb(5, 119, 81);
+    background-color: rgb(194, 87, 87);
     margin-right: auto;
     margin-left: auto;
     margin-top: 300px;
