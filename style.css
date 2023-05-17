@@ -35,7 +35,7 @@
 }
 
 body {
-    
+    margin: 0px;
     background-color: rgb(0, 0, 0);
     font-family: arial;
     height: 100vh;
@@ -52,7 +52,7 @@ p {
     height: 30px;
     width: 140px;
     margin: auto;
-    margin-top: 38px;
+    margin-top: 20px;
     padding-bottom: 5px;
     padding-top: 0px;
     border-radius: 4px;
@@ -66,6 +66,7 @@ p {
 .d1 > p {
     padding-top: 10px;
     font-size: 13px;
+    
 }
 
 img {
@@ -76,30 +77,16 @@ img {
 
 
 
-.pai{
-    position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-height: 300px;
-width: 900px;
-background-color: aqua;
-position: relative;
-justify-content: center;  /*crie uma div pai e coloque tudo no fillho*/
-align-items: center;      /* ai coloca isso pra centralziar e para n bagulnçar*/
-height: 100;
-}
+
 
 .filho {
-   
-    
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     min-width: 320px;
     max-width: 100%;
     background-color: rgb(82, 79, 79);
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 300px;
     vertical-align: middle;
     height: 250px;
     width: 600px;
