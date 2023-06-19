@@ -8,9 +8,12 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    background: url(fundos/total.jpg) no-repeat;
+    background-size:cover;
 }
 
 main {
+    background-color: rgba(0, 0, 0, 0.63);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,9 +22,11 @@ main {
 
 .login {
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(121, 0, 0);
-    background-color: rgb(0, 0, 0);
-    width: 300px;
+    box-shadow: 0 0 20px rgba(121, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 250px;
+    height: 250px;
+    margin
     padding: 20px;
 }
 
@@ -29,8 +34,10 @@ h1 {
     color: white;
     text-align: center;
     font-weight: lighter;
+    font-size: 1.3em;
     margin-top: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px ;
 }
 
 .formulario {
@@ -39,25 +46,45 @@ h1 {
 }
 
 .campo {
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.37);
+    border: 1px solid rgba(180, 178, 178, 0.568);
+    border-radius: 10px;
     margin: 10px;
+    height: 30px;
+    margin-top: 13px ;
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2px;
 }
 
 input {
+    border-radius: 10px;
     flex: 1;
     border: none;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
     padding: 5px;
     box-sizing: border-box;
 }
 
 .material-icons {
+    border-radius: 10px;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 0 10px;
+}
+
+button{
+    color: white;
+    border: none;
+    background-color: darkred;
+    vertical-align: center; 
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+}
+
+button:hover{
+    background-color: rgb(170, 7, 7);
+    border: 1px solid rgba(180, 178, 178, 0.568);
 }
