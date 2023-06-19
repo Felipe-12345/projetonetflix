@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon">
 </head>
 
-<body >
+<body>
     <main>
         <section class="login">
-            <form action="login.php" method="post" autocomplete="on">
-                <div class="campo">
-                    <label for="login">Login</label>
-                    <input type="email" name="login" id="ilogin" placeholder="Login">
-                </div>
-                <div class="campo">
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="Senha" id="isenha">
-                </div>
-            </form>
+            <h1>Quem está assistindo?</h1>
+            <div class="formulario">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Login">
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
