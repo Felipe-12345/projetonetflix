@@ -1,148 +1,31 @@
-@media screen and (max-width: 708px) {
-    img {
-        height: 60px;
-        width: 60px;
-    }
-                   
+@charset "utf-8";
 
-    
-}
-
-body {
+*{
     margin: 0px;
-    background-color: rgb(0, 0, 0);
-    font-family: arial;
-    height: 100%;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-color: lightgray;
+}
+
+main{
+    position: relative;
+   height: 100vh;
+   width: 100vw;
     
 }
 
-p {
-    color: white;
-    text-align: center;
-}
-
-.d1 {
-    background-color: rgb(0, 0, 0);
-    height: 30px;
-    width: 140px;
-    margin: auto;
-    margin-top: 20px;
-    padding-bottom: 5px;
-    padding-top: 0px;
-    border-radius: 4px;
-    box-shadow: 0px -2px 5px 1px rgba(219, 219, 219, 0.185);
-}
-
-.d1:hover {
-    background-color: rgb(26, 25, 25);
-}
-
-.d1 > p {
-    padding-top: 10px;
-    font-size: 13px;
-    
-}
-
-img {
-    max-width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-
-.filho {
+.login{
     position: absolute;
+    background-color: blue;
+    height: 300px;
+    width: 400px;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 320px;
-    max-width: 100%;
-    background-color: rgb(82, 79, 79);
-    vertical-align: middle;
-    height: 250px;
-    width: 600px;
-    border-radius: 8px;
-    
-}
 
-div h1 {
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 0;
-    font-family: arial;
-    font-size: 26px;
-    font-weight: lighter;
-}
-
-
-.ft1{
-    width: 100%;
-    display: inline;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 22px;
-    margin-left: 20px;
-    
-}
-.ft1:hover {
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
-}
-
-.ft2{
-    width: 100%;
-    display: inline;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 12px;
-    
-}
-.ft2:hover {
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
-}
-
-.ft3{
-    width: 100%;
-    display: inline;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    
-}
-.ft3:hover {
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
-}
-
-.ft4{
-    width: 100%;
-    display: inline;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.ft4:hover {
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
-}
-
-.ft5 {
-    width: 100%;
-    display: inline;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.ft5:hover {
-    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.678);
 }
