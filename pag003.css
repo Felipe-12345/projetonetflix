@@ -20,14 +20,14 @@ menu {
     background-color: rgba(0, 0, 0, 0.363);
     height: 60px;
     padding: 10px;
-    z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
+    z-index: 9999;
   }
 
-menu > h1{
+  menu > h1 {
     margin-left: 10px;
     color: white;
     font-size: 1.3em;
-}
+  }
 
 .s {
     margin-left: 6px;
@@ -85,21 +85,23 @@ menu > h1{
   }
   
 
-#p{
-    position: absolute;
+  #p {
+    font-size: 27px;
+    position: fixed;
     color: white;
-    right: 110px;
+    right: 97px;
     top: 10px;
-  
+    z-index: 9999;
 }
 
-#o{
-    position: absolute;
+#o {
+    font-size: 27px;
+    position: fixed;
     color: white;
     right: 50px;
     top: 10px;
-  
-}
+    z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
+  }
 
 .menu{
     position: relative;
@@ -142,14 +144,14 @@ menu > h1{
 button{
     background-color: white;
     color: black;
-    height: 30px;
+    height: 35px;
     width: 80px;
-   padding-left: 10px;
+   padding-left: 6px;
     border: none;
     border-radius: 2px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555);
     position: absolute;
-    bottom: 10px;
+    bottom: 17px;
     left: 15px;
     font-weight: bold;
     font-size: 12px;
@@ -163,9 +165,11 @@ button:hover{
 }
 
 #i{
+    padding-left: 5px;
     color: black;
     left: 2px;
-    top: 3px;
+    top: 50%;
+    transform: translate(-50%, -58%);
    
     position: absolute;
     display: inline;
@@ -196,6 +200,7 @@ main > article > h1 {
     color: white;
     margin-bottom: 20px;
     font-size: 1.3em;
+    padding-left: 12px;
 }
 
 div{
@@ -256,5 +261,17 @@ img{
     height: 180px;
     width: 150px;
    
+  }
+
+
+
+  .menu-rolado {
+    height: 40px; /* Ajuste a altura do menu quando estiver rolado */
+  }
+  
+  .menu-rolado .s,
+  .menu-rolado .f,
+  .menu-rolado .c {
+    display: none; /* Oculta os elementos com as classes .s, .f e .c quando o menu estiver rolado */
   }
 
