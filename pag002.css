@@ -3,6 +3,7 @@
 *{
    margin: 0px;
    padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
    
 }
 
@@ -23,7 +24,7 @@ main{
 
 article {
     background-color: rgb(0, 0, 0);
-    height: 500px;
+    height: 530px;
     width: 300px;
     position: absolute;
     top: 50%;
@@ -36,13 +37,13 @@ article {
 
 img{
     
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 10px;
     margin: auto;
     background-repeat: no-repeat;
     height:92px;
     width: 92px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 img:hover{
@@ -55,7 +56,7 @@ h1{
     color: white;
     text-align: center;
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 22px;
 }
 
@@ -67,13 +68,13 @@ h1{
  
  
  .p1 img, .p2 img {
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     background-repeat: no-repeat;
     height: 90px;
     width: 90px;
-    margin-right: 12px;
-    margin-left: 12px; /* Adicione esta linha para criar espaço entre as imagens */
+    margin-right: 20px;
+    margin-left: 20px; /* Adicione esta linha para criar espaço entre as imagens */
  }
   .p2 img:hover{
     height: 85px;
@@ -92,10 +93,33 @@ h1{
 }
 
 .pp {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .po:hover{
     height: 85px;
     width: 85px;
+}
+
+figcaption{
+    font-size: 15px;
+    color: white;
+}
+
+
+
+#sozin{
+    margin-left: 25px;
+}
+
+.q{
+    margin-left: 40px;
+}
+
+.w{
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
 }

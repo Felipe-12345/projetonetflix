@@ -17,19 +17,17 @@
             <h1>Filmes, séries e muito <br> mais, sem limites</h1>
             <p>Quer assistir? Informe seu email e senha para entrar em sua conta</p>
             <div class="formulario">
-                <form action="login.php" method="post" autocomplete="on">
+                <form action="pag02.html" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-icons">person</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Login" autocomplete="email">
+                        <input type="email" name="login" id="ilogin" placeholder="Login" autocomplete="email" required>
                     </div>
                     <div class="campo">
                         <span class="material-icons">vpn_key</span>
                         <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8" maxlength="20" autocomplete="current-password">
                     </div>
-                    <a href="pag02.html">
-                       <div class="h">
-                           <h1 >Enviar</h1>
-                       </div>
+                    <input type="submit" value="Enviar" class="h">
+                    
                     </a>
                 </form>
             </div>
