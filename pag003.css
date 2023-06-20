@@ -81,12 +81,13 @@ menu {
     left: 0;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.363);
-    height: 35px;
+    height: 40px;
     padding: 10px;
     z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
   }
 
 menu > h1{
+    margin-left: 10px;
     color: white;
     font-size: 1.3em;
 }
@@ -94,7 +95,7 @@ menu > h1{
 #p{
     position: absolute;
     color: white;
-    right: 80px;
+    right: 110px;
     top: 10px;
   
 }
@@ -102,7 +103,7 @@ menu > h1{
 #o{
     position: absolute;
     color: white;
-    right: 40px;
+    right: 50px;
     top: 10px;
   
 }
@@ -115,7 +116,7 @@ menu > h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    height: 450px;
+    height: 490px;
     width: 100vw;
 }
 
@@ -135,12 +136,12 @@ menu > h1{
 
     border-radius: 5px;
     filter: none;
-    
+    padding-bottom: 42px;
     height: 340px;
     width: 300px;
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
