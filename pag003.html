@@ -42,6 +42,11 @@
             <button ><span    id="i" class="material-symbols-outlined">
                 play_arrow 
                 </span>&nbsp;Assistir</button>
+                
+                <button  id="b2"><span  id="ii" class="material-symbols-outlined">
+                    add
+                    </span>&nbsp;Minha Lista</button>
+
         </article>
     </div>
     <main>
@@ -71,19 +76,3 @@
     </main>
 </body>
 </html>
-<script>
-    window.addEventListener("scroll", function() {
-  var menu = document.querySelector("menu");
-  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollTop === 0) {
-    menu.classList.add("menu-transparente");
-    menu.classList.remove("menu-colorido");
-    menu.classList.remove("menu-rolado");
-  } else {
-    menu.classList.remove("menu-transparente");
-    menu.classList.add("menu-colorido");
-    menu.classList.add("menu-rolado");
-  }
-});
-</script>
