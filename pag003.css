@@ -240,8 +240,7 @@ main > article > h1 {
 
 div{
     display: inline-block;
-    border-radius: 10px;
-    margin-right: 5px;
+    border-radius: 10px;   
     margin-left: 0px;
 }
 
