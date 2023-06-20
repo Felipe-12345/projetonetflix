@@ -81,7 +81,7 @@ menu {
     left: 0;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.363);
-    height: 50px;
+    height: 60px;
     padding: 10px;
     z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
   }
@@ -93,17 +93,51 @@ menu > h1{
 }
 
 .s {
-    margin-left: 20px;
+    margin-left: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(79, 80, 79);
+    background-color: rgba(79, 80, 79, 0);
     color: white;
     border-radius: 8px;
     border: 1px solid lightgray;
-    height: 20px;
-    width: 50px;
+    height: 22px;
+    width: 52px;
+    line-height: 20px;
+    padding-right: 10px;
+    font-weight: lighter;
+  }
+
+  .f{
+    margin-left: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(79, 80, 79, 0);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    height: 22px;
+    width: 52px;
+    line-height: 20px;
+    padding-right: 10px;
+    font-weight: lighter;
+  }
+
+  .c{
+    margin-left: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(79, 80, 79, 0);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    height: 22px;
+    width: 70px;
     line-height: 20px;
     padding-right: 10px;
     font-weight: lighter;
@@ -134,7 +168,7 @@ menu > h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    height: 520px;
+    height: 600px;
     width: 100vw;
 }
 
@@ -155,7 +189,7 @@ menu > h1{
     border-radius: 5px;
     filter: none;
     padding-bottom: 45px;
-    height: 380px;
+    height: 440px;
     width: 352px;
     margin: auto;
     position: absolute;
