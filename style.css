@@ -79,6 +79,7 @@ p{
 }
 
 input {
+    color: white;
     border-radius: 10px;
     flex: 1;
     border: none;
@@ -88,6 +89,10 @@ input {
     box-sizing: border-box;
 }
 
+input:focus {
+    font-size: 16px;
+}
+
 .material-icons {
     border-radius: 10px;
     font-size: 30px;
@@ -95,17 +100,24 @@ input {
     margin: 0 10px;
 }
 
-button{
-    color: white;
-    border: none;
-    background-color: darkred;
-    vertical-align: center; 
-    font-size: 14px;
-    width: 90%;
-    height: 30px;
+a{
+    text-decoration: none;
 }
 
-button:hover{
+.h {
+    margin: auto;
+    background-color: darkred;
+    height: 40px;
+    width: 90%;
+    vertical-align: center;
+    vertical-align: middle;
+    font-size: .7em;
+   
+}
+
+.h:hover {
     background-color: rgb(170, 7, 7);
     border: 1px solid rgba(180, 178, 178, 0.568);
+    vertical-align: center;
+    vertical-align: middle;
 }
