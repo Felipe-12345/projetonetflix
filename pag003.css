@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+"Entre Risos e Suspiros: O Amor que Nos Une"
 
 *{
     margin: 0;
@@ -14,23 +14,23 @@ body{
     background-color: rgb(44, 44, 44);
 }
 
-menuu {
-    position: fixed;
-    
-    top: 0;
-    left: 0;
+menu {
+  position: relative;
+    margin: 0px;
     width: 100vw;
-    background-color: rgba(44, 43, 43, 0.678);
+    background-color: rgba(66, 65, 65, 0.384);
     height: 90px;
     padding: 10px;
-    z-index: 9999;
+   
   }
 
-  menu > h1 {
-    
+  menu > .h1 {
+    height: 30px;
+    width: 110px;
+    line-height: 1px;
     padding-left: 12px;
     color: white;
-    font-size: 2em;
+    
   }
 
 .s {
@@ -94,7 +94,7 @@ menuu {
     position: fixed;
     color: white;
     right: 97px;
-    top: 10px;
+    top: 20px;
     z-index: 9999;
 }
 
@@ -103,16 +103,17 @@ menuu {
     position: fixed;
     color: white;
     right: 50px;
-    top: 10px;
+    top: 20px;
     z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
   }
 
 .menu{
-    
+    margin-top: -10px;
     position: relative;
     background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(138, 136, 136));
-    height: 600px;
+    height: 550px;
     width: 100vw;
+   
 }
 
 
@@ -128,9 +129,8 @@ menuu {
     padding-bottom: 85px;
     height: 402px;
     width: 352px;
-    
     position: absolute;
-    top: 54%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
