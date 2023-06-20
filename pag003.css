@@ -110,7 +110,7 @@ menuu {
 .menu{
     
     position: relative;
-    background-image: linear-gradient(to top, rgb(124, 134, 128) 20%, rgb(69, 155, 91)45%, rgb(145, 209, 209));
+    background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(138, 136, 136));
     height: 600px;
     width: 100vw;
 }
@@ -118,7 +118,7 @@ menuu {
 
 .ar{
     background-color: black;
-    background-image: url("fundos/sitio.png");
+    background-image: url(fotos/foto\ 4.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center top ;
