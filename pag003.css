@@ -270,14 +270,6 @@ img{
     width: 150px;
 }
 
-.ft-container {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 10px;
-    overflow-x: auto;
-    width: 100%;
-    padding-bottom: 10px;
-  }
 
 .ft3 {
     
@@ -301,13 +293,4 @@ img{
 
 
 
-  .menu-rolado {
-    height: 40px; /* Ajuste a altura do menu quando estiver rolado */
-  }
   
-  .menu-rolado .s,
-  .menu-rolado .f,
-  .menu-rolado .c {
-    display: none; /* Oculta os elementos com as classes .s, .f e .c quando o menu estiver rolado */
-  }
-
