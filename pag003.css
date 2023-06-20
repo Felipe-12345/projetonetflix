@@ -14,7 +14,7 @@ body{
     background-color: rgb(44, 44, 44);
 }
 
-menu {
+nav {
   position: relative;
     margin: 0px;
     width: 100vw;
@@ -24,7 +24,7 @@ menu {
    
   }
 
-  menu > .h1 {
+ nav > .h1 {
     height: 30px;
     width: 110px;
     line-height: 1px;
