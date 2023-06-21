@@ -125,12 +125,6 @@ nav {
    
 }
 
-  h1{
-    color: white;
-    text-align: center;
-    padding-top: 60%;
-  }
-
 .ar{
     background-color: black;
     background-image: url(fotos/foto\ 4.JPEG);
@@ -240,7 +234,6 @@ main{
 }
 
  .h {
-   
     padding-top: 10px ;
     padding-bottom: 13px;
     color: white;
@@ -398,14 +391,15 @@ img{
   footer{
     
     background-color: rgb(29, 28, 28);
-    height: 100px;
+    height: 80px;
     width: 100vw;
   }
 
   footer > h1 {
+    text-align: center;
     font-size: 14px;
     font-weight: lighter;
-    padding-top: 30px;
+    padding-top: 20px;
     color: white;
   }
 
