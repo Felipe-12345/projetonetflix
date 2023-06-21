@@ -174,7 +174,7 @@ nav {
   bottom: 15%;
   font-size: 13px;
   position: absolute;
-  color: rgba(250, 246, 246, 0.911);
+   color: rgba(250, 246, 246, 0.897);
   display: inline;
   text-shadow: 5px 5px 2px black;
 }
@@ -184,7 +184,7 @@ nav {
   bottom: 15%;
   font-size: 13px;
   position: absolute;
-  color: rgba(250, 246, 246, 0.863);
+  color: rgba(250, 246, 246, 0.897);
   display: inline;
   text-shadow: 5px 5px 2px black;
 }
@@ -218,8 +218,8 @@ button:hover{
     font-size: 33px;
     padding-left: 2px;
     color: black;
-    left: 10px;
-    top: 37%;
+    left: 8px;
+    top: 35%;
     transform: translate(-50%, -50%);
    
     position: absolute;
