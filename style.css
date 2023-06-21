@@ -101,22 +101,21 @@ input:focus {
     margin: 0 10px;
 }
 
-a{
-    text-decoration: none;
-}
 
-.h {
+button {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 1px black;
+    color: white;
     margin: auto;
     background-color: darkred;
     height: 40px;
-    width: 90%;
-    vertical-align: center;
-    vertical-align: middle;
-    font-size: .7em;
+    width: 93%;
+    border: none;
+    font-size: 1em;
    
 }
 
-.h:hover {
+button:hover {
     background-color: rgb(170, 7, 7);
     border: 1px solid rgba(180, 178, 178, 0.568);
     vertical-align: center;

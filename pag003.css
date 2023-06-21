@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: love ;
+  src: url(DanishaRomance.otf) format(OpenType);
+}
+
 /*"Entre Risos e Suspiros: O Amor que Nos Une"*/
 
 *{
@@ -141,6 +146,14 @@ nav {
     top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.ar > h1{
+  font-weight: lighter;
+  font-family: 'love';
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 button{
