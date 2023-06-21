@@ -230,7 +230,7 @@ main{
     background-color: rgb(0, 0, 0);
     height: 250px;
     width: 100vw;
-    overflow-x: auto;
+    
 }
 
  .h {
@@ -240,9 +240,11 @@ main{
     font-size: 1.3em;
     padding-left: 12px;
 }
-.ft-container{
- white-space: nowrap;
-}
+  .ft-container{
+    white-space: nowrap;
+    overflow-x: auto;
+    
+  }
 
 
 
@@ -321,7 +323,7 @@ img{
     background-color: rgb(0, 0, 0);
     height: 250px;
     width: 100vw;
-    overflow-x: auto;
+    
   }
 
   .a1{
