@@ -41,8 +41,8 @@ img{
     border-radius: 10px;
     margin: auto;
     background-repeat: no-repeat;
-    height:92px;
-    width: 92px;
+    height:95px;
+    width: 96px;
     margin-top: 40px;
 }
 
@@ -71,10 +71,10 @@ h1{
     margin-top: 30px;
     border-radius: 10px;
     background-repeat: no-repeat;
-    height: 90px;
-    width: 90px;
-    margin-right: 20px;
-    margin-left: 20px; /* Adicione esta linha para criar espaço entre as imagens */
+    height:95px;
+    width: 96px;
+    margin-right: 15px;
+    margin-left: 15px; /* Adicione esta linha para criar espaço entre as imagens */
  }
   .p2 img:hover{
     height: 85px;
@@ -93,7 +93,7 @@ h1{
 }
 
 .pp {
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .po:hover{
