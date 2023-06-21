@@ -91,21 +91,28 @@ nav {
    font-weight: lighter;
   }
   
+  #dois{
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+  }
 
-  #p {
+  #tv {
     font-size: 27px;
     position: absolute;
     color: white;
-    right: 97px;
+    right: 109px;
     top: 20px;
     z-index: 9999;
 }
 
-#o {
+#lupa {
     font-size: 27px;
     position: absolute;
     color: white;
-    right: 50px;
+    right: 64px;
     top: 20px;
     z-index: 9999; /* Valor alto para garantir que esteja acima dos outros elementos */
   }
