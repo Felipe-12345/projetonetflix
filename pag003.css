@@ -253,7 +253,7 @@ img{
 
 .ft1{
     display: inline-block;
-    background: url(fotos/duda\ 1.jpg) no-repeat ;
+    background: url(fotos/A1.jpg) no-repeat ;
     background-size: cover;
     height: 180px;
     width: 140px;
@@ -264,7 +264,7 @@ img{
 .ft2{
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/foto\ 2.jpeg) no-repeat;
+    background: url(fotos/A2.JPEG) no-repeat;
     background-size: cover;
     background-position:center center;
     height: 180px;
@@ -277,7 +277,7 @@ img{
 .ft3 {
     display: inline-block;
     margin-left: 12px;  
-    background: url(fotos/foto\ 3.jpg) no-repeat;
+    background: url(fotos/A3.jpeg) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
@@ -289,7 +289,7 @@ img{
   .ft4 {
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/foto\ 4.JPEG) no-repeat;
+    background: url(fotos/A4.jpeg) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
@@ -301,7 +301,7 @@ img{
   .ft5 {
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/foto\ 5.jpg) no-repeat;
+    background: url(fotos/A5.JPEG) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
@@ -321,7 +321,7 @@ img{
 
   .a1{
     display: inline-block;
-    background: url(fotos/A1.jpg) no-repeat ;
+    background: url(fotos/foto\ 2.jpeg) no-repeat ;
     background-size: cover;
     background-position: center center;
     height: 180px;
@@ -334,7 +334,7 @@ img{
    
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/A2.JPEG) no-repeat;
+    background: url(fotos/foto\ 3.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 180px;
@@ -348,7 +348,7 @@ img{
   
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/A3.jpeg) no-repeat;
+    background: url(fotos/foto\ 4.JPEG) no-repeat;
     background-size: cover;
     background-position: center ;
     height: 180px;
@@ -362,7 +362,7 @@ img{
    
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/A4.jpeg) no-repeat;
+    background: url(fotos/foto\ 5.jpg) no-repeat;
     background-size: cover;
     background-position: left ;
     height: 180px;
@@ -374,7 +374,7 @@ img{
   .a5{
     display: inline-block;
     margin-left: 12px;
-    background: url(fotos/A5.JPEG) no-repeat;
+    background: url(fotos/duda\ 1.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
