@@ -42,7 +42,7 @@ nav {
     text-align: center;
     background-color: rgba(79, 80, 79, 0);
     color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid lightgray;
     height: 32px;
     width: 77px;
@@ -52,38 +52,41 @@ nav {
   }
 
   .f{
-    margin-left: 86px;
+    margin-left: 91px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgba(79, 80, 79, 0);
     color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid lightgray;
     height: 32px;
     width: 77px;
     line-height: 20px;
-    padding-right: 6px;
+    padding-right: 10px;
+    padding-left: 12px;
     font-weight: lighter;
   }
 
   .c{
-    margin-left: 166px;
+    margin-left: 176px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgba(79, 80, 79, 0);
     color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid lightgray;
     height: 32px;
-    width: 90px;
+    width: 105px;
     line-height: 20px;
-    padding-right: 6px;
+    
+    padding-left: 5px;
     font-weight: lighter;
   }
+  
 
   #seta{
    font-weight: lighter;
@@ -109,7 +112,7 @@ nav {
   }
 
 .menu{
-    margin-top: -10px;
+
     position: relative;
     background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(138, 136, 136));
     height: 550px;
@@ -212,22 +215,18 @@ button:hover{
 main{
   margin: 0px;
   padding: 0px;
-    position: relative;
     height: 100vh;
     width: 100vw;
 }
 
-main > article{
-  margin: 0px;
-  padding: 0px;
-    background-color: black;
+  article{
+   
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
     height: 260px;
     width: 100vw;
-    margin-top: 20px;
-    position: absolute;
     overflow-y: auto;
-    overflow: hidden;
-    
 }
 
 main > article > h1 {
@@ -238,14 +237,15 @@ main > article > h1 {
     font-size: 1.3em;
     padding-left: 12px;
 }
-
-div{
-    display: inline-block;
-    border-radius: 10px;   
-    margin-left: 0px;
+.ft-container{
+ white-space: nowrap;
 }
 
+
+
+
 img{
+ 
     border-radius: 25%;
     height: 30px;
     width: 30px;
@@ -254,41 +254,50 @@ img{
 }
 
 .ft1{
-  margin-left: 15px;
+    display: inline-block;
     background: url(fotos/duda\ 1.jpg) no-repeat ;
     background-size: cover;
-    background-position: center top;
     height: 180px;
     width: 150px;
+
+    border-radius: 10px;
 }
 
 .ft2{
+    display: inline-block;
+    margin-left: 20px;
     background: url(fotos/foto\ 2.jpeg) no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position:center center;
     height: 180px;
     width: 150px;
+
+    border-radius: 10px;
 }
 
 
 .ft3 {
-    
+    display: inline-block;
+   margin-left: 20px;
     background: url(fotos/foto\ 3.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
     width: 150px;
    
+    border-radius: 10px;
   }
   
   .ft4 {
-   
+    display: inline-block;
+    margin-left: 20px;
     background: url(fotos/foto\ 4.JPEG) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 180px;
     width: 150px;
    
+    border-radius: 10px;
   }
 
 
