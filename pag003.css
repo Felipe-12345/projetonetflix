@@ -15,8 +15,8 @@ body{
 }
 
 nav {
-  
-  position: relative;
+
+    position: relative;
     margin: 0px;
     width: 95vw;
     background-color: rgba(66, 65, 65, 0);
@@ -111,10 +111,9 @@ nav {
   }
 
 .menu{
-
     position: relative;
-    background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(138, 136, 136));
-    height: 550px;
+    background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(110, 110, 110));
+    height: 620px;
     width: 100vw;
    
 }
@@ -127,13 +126,13 @@ nav {
     background-size: cover;
     background-position:center top ;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.288);
-    border-radius: 5px;
+    border-radius: 10px;
     filter: none;
     padding-bottom: 85px;
     height: 402px;
     width: 352px;
     position: absolute;
-    top: 48%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -298,6 +297,19 @@ img{
    
     border-radius: 7px;
   }
+
+  .ft5 {
+    display: inline-block;
+    margin-left: 12px;
+    background: url(fotos/foto\ 5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 180px;
+    width: 140px;
+   
+    border-radius: 7px;
+  }
+
 
 
 
