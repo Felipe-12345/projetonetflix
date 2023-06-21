@@ -2,10 +2,11 @@
 
 @font-face {
   font-family: love ;
-  src: url(DanishaRomance.otf) format(OpenType);
+  src: url(Lovera.otf) format(OpenType);
 }
 
-/*"Entre Risos e Suspiros: O Amor que Nos Une"*/
+/*"
+e"*/
 
 *{
     margin: 0;
@@ -125,7 +126,7 @@ nav {
 .menu{
     position: relative;
     background-image: linear-gradient(to top,black 10% ,rgb(14, 13, 13) 1%, rgb(26, 25, 25),rgb(43, 42, 42)50%, rgb(110, 110, 110));
-    height: 620px;
+    height: 610px;
     width: 100vw;
    
 }
@@ -135,12 +136,12 @@ nav {
     background-image: url(fotos/foto\ 4.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center top ;
+    background-position: bottom ;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.288);
     border-radius: 10px;
     filter: none;
     padding-bottom: 85px;
-    height: 402px;
+    height: 392px;
     width: 352px;
     position: absolute;
     top: 57%;
@@ -149,11 +150,43 @@ nav {
 }
 
 .ar > h1{
+  line-height: 35px;
+  font-size: 2.2em;
   font-weight: lighter;
   font-family: 'love';
   color: white;
-  padding: 10px;
+  padding-top: 280px;
+  text-shadow: 3px 3px 3px black;
   text-align: center;
+}
+
+.titulo{
+  
+  font-family: 'love';
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+    text-shadow: 3px 3px 3px black;
+}
+
+.p{
+  left: 31%;
+  bottom: 15%;
+  font-size: 13px;
+  position: absolute;
+  color: rgba(250, 246, 246, 0.911);
+  display: inline;
+  text-shadow: 5px 5px 2px black;
+}
+
+.m{
+  left: 54%;
+  bottom: 15%;
+  font-size: 13px;
+  position: absolute;
+  color: rgba(250, 246, 246, 0.863);
+  display: inline;
+  text-shadow: 5px 5px 2px black;
 }
 
 button{
@@ -161,15 +194,15 @@ button{
     background-color: white;
     color: black;
     height: 42px;
-    width: 110px;
-   padding-left: 8px;
-   margin-left: 13px;
+    width: 120px;
+    bottom: 17px;
+    left: 15px;
+    margin-left: 13px;
     border: none;
     border-radius: 2px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555);
     position: absolute;
-    bottom: 17px;
-    left: 15px;
+   
     font-weight: bold;
     font-size: 15px;
     line-height: 30px;
@@ -183,9 +216,9 @@ button:hover{
 
 #i{
     font-size: 33px;
-    padding-left: 7px;
+    padding-left: 2px;
     color: black;
-    left: 2px;
+    left: 10px;
     top: 37%;
     transform: translate(-50%, -50%);
    
@@ -198,29 +231,30 @@ button:hover{
 #b2{
     background-color: rgb(70, 70, 70);
     color: rgb(255, 255, 255);
-    height: 40px;
+    height: 44px;
     width: 130px;
+    left: 50%;
+    bottom: 17px;
+
     padding-left: 20px;
-    
     border: none;
     border-radius: 2px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.555);
     position: absolute;
-    bottom: 19px;
-    left: 50%;
-    font-weight: bold;
-    font-size: 15px;
+    
+    font-weight: lighter;
+    font-size: 16px;
     line-height: 30px;
   
 }
 
 
 #ii{
-  font-size: 28px;
-  padding-left: 7px;
+  font-size: 26px;
+  padding-left: 5px;
   color: rgb(255, 255, 255);
-  left: 2px;
-  top: 37%;
+  left: 10px;
+  top: 41%;
   transform: translate(-50%, -50%);
  
   position: absolute;
