@@ -176,7 +176,7 @@ nav {
   position: absolute;
    color: rgba(250, 246, 246, 0.897);
   display: inline;
-  text-shadow: 5px 5px 2px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 .m{
@@ -186,7 +186,7 @@ nav {
   position: absolute;
   color: rgba(250, 246, 246, 0.897);
   display: inline;
-  text-shadow: 5px 5px 2px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 button{
