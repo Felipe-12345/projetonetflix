@@ -5,7 +5,7 @@ function clicar(){
 
 function clicar2(){
     img = document.querySelector('.ar')
-    img.style.backgroundImage = "url('fotos/A2.jpeg')"
+    img.style.backgroundImage = "url('fotos/A2.JPEG')"
 }
 
 function clicar3(){
@@ -22,6 +22,6 @@ function clicar4(){
 
 function clicar5(){
     img = document.querySelector('.ar')
-    img.style.backgroundImage = "url('fotos/A5.jpeg')"
+    img.style.backgroundImage = "url('fotos/A5.JPEG')"
 }
 
