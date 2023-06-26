@@ -17,16 +17,20 @@ function clicar3(){
     img.style.backgroundImage = "url('fotos/A3.jpeg')"
     ar = document.querySelector('.ar')
     ar.style.backgroundPosition = 'center center'
+    menu.style.background = "linear-gradient(to top, black 0.1%,#CCE2B3, #D8E172, #D0EE89,#2D4535 )"
 }
 
 function clicar4(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A4.jpeg')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#D4E5B3, #C1CC6F, #96A65C, #6DBDFF,#53A2F8 )"
 }
 
 function clicar5(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A5.JPEG')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#D4E5B3, #C1CC6F, #96A65C, #6DBDFF,#53A2F8 )"
+    
 }
 
 
@@ -39,12 +43,14 @@ function clicar5(){
 
 function clicara1() {
     img = document.querySelector('.ar')
-   
+    img.style.backgroundImage = "url('fotos/foto\ 2.jpeg')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#8799A2, #8799A2, #6C7348,#8EBBE8,  #417DC9)"
   }
 
 function clicara2(){
     img = document.querySelector('.ar')
-    menu.style.backgroundImage = "url('fotos/foto\ 3.jpg')"
+    img.style.backgroundImage = "url('fotos/foto\ 3.jpg')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#9CACC3, #45504B, #837B67)"
 }
 
 function clicara3(){
@@ -61,10 +67,12 @@ function clicara3(){
 function clicara4(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/foto\ 5.jpg')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#767A59, #3E543B, #73A1B9,#636E82,  #4F5762)"
 }
 
 function clicara5(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/duda\ 1.jpg')"
+    menu.style.background = "linear-gradient(to top, black 0.1%,#DED0B3, #979797, #4E4E4E,#806B66,  #7F674D)"
 }
 
