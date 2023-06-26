@@ -2,12 +2,14 @@ function clicar(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A1.jpg')"
     menu = document.querySelector('.menu')
-    menu.style.background = "linear-gradient(to bottom, #83C1D0, #B4E6FD, #DDAC67, #848C41)"
+    menu.style.background = "linear-gradient(to top,black 0.1%, #83C1D0, #B4E6FD, #DDAC67, #848C41)"
 }
 
 function clicar2(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A2.JPEG')"
+    menu = document.querySelector('.menu')
+    menu.style.background = "linear-gradient(to top, black 0.1%,#9CACC3, #45504B, #837B67)"
 }
 
 function clicar3(){
