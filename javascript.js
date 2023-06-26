@@ -1,6 +1,8 @@
 function clicar(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A1.jpg')"
+    menu = document.querySelector('.menu')
+    menu.style.background = "linear-gradient(to bottom, #83C1D0, #B4E6FD, #DDAC67, #848C41)"
 }
 
 function clicar2(){
@@ -33,16 +35,14 @@ function clicar5(){
 
 
 
-
-
-function clicara1(){
+function clicara1() {
     img = document.querySelector('.ar')
-    img.style.backgroundImage = "url('fotos/foto\ 2.jpeg')"
-}
+   
+  }
 
 function clicara2(){
     img = document.querySelector('.ar')
-    img.style.backgroundImage = "url('fotos/foto\ 3.jpg')"
+    menu.style.backgroundImage = "url('fotos/foto\ 3.jpg')"
 }
 
 function clicara3(){
