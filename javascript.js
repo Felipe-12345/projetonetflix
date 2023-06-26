@@ -50,6 +50,10 @@ function clicara2(){
 function clicara3(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/foto\ 4.JPEG')"
+
+    menu = document.querySelector('.menu')
+    menu.style.background = "linear-gradient(to top, black 10% ,rgb(14, 13, 13) 1%,rgb(26, 25, 25),rgb(43, 42, 42)50%,rgb(110, 110, 110))"
+
     ar = document.querySelector('.ar')
     ar.style.backgroundPosition = 'center center'
 }
