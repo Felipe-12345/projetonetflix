@@ -13,15 +13,7 @@ function clicar(){
     
 }
 
-/*
-    txt = document.querySelector('.titulo')
-    stxt = document.querySelector('.sub-titulo')
-    txt.style.fontSize = '2.2em'
-    stxt.style.fontSize = '1.7em'
-    txt.style.paddingTop= '280px'
-    txt.innerHTML = 'Ondas do Amor:'
-    stxt.innerHTML = 'Águas Rasas'
-*/
+
 
 function clicar2(){
     img = document.querySelector('.ar')
@@ -56,18 +48,40 @@ function clicar4(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A4.jpeg')"
     menu.style.background = "linear-gradient(to top, black 0.1%,#D4E5B3, #C1CC6F, #96A65C, #6DBDFF,#53A2F8 )"
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '260px'
+    txt.innerHTML = 'Em Busca do Amor Perfeito:'
+    stxt.innerHTML = 'A Jornada Inesquecível    '
 }
 
 function clicar5(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A5.JPEG')"
     menu.style.background = "linear-gradient(to top, black 0.1%,#D4E5B3, #C1CC6F, #96A65C, #6DBDFF,#53A2F8 )"
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.4em'
+    stxt.style.fontSize = '1.5em'
+    txt.style.paddingTop= '276px'
+    txt.innerHTML = 'Paixão nas Alturas:'
+    stxt.innerHTML = 'Um Amor nas Montanhas'
     
 }
 
 
 
-
+/*
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '280px'
+    txt.innerHTML = 'Ondas do Amor:'
+    stxt.innerHTML = 'Águas Rasas'
+*/
 
 
 
@@ -77,23 +91,45 @@ function clicara1() {
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/foto\ 2.jpeg')"
     menu.style.background = "linear-gradient(to top, black 0.1%,#8799A2, #8799A2, #6C7348,#8EBBE8,  #417DC9)"
+
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '3.2em'
+    stxt.style.fontSize = '2.8em'
+    txt.style.paddingTop= '260px'
+    txt.innerHTML = 'Dois Corações:'
+    stxt.innerHTML = 'Um Destino'
   }
 
 function clicara2(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/foto\ 3.jpg')"
     menu.style.background = "linear-gradient(to top, black 0.1%,#9CACC3, #45504B, #837B67)"
+    
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '280px'
+    txt.innerHTML = 'Ondas do Amor:'
+    stxt.innerHTML = 'Águas Rasas'
 }
 
 function clicara3(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/foto\ 4.JPEG')"
-
     menu = document.querySelector('.menu')
     menu.style.background = "linear-gradient(to top, black 10% ,rgb(14, 13, 13) 1%,rgb(26, 25, 25),rgb(43, 42, 42)50%,rgb(110, 110, 110))"
-
     ar = document.querySelector('.ar')
     ar.style.backgroundPosition = 'center center'
+
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '280px'
+    txt.innerHTML = 'Entre Risos e Suspiros:'
+    stxt.innerHTML = 'O Amor que Nos Une'
 }
 
 function clicara4(){
