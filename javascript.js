@@ -160,7 +160,14 @@ function clicara5(){
 }
 
 
-
+function testButtonClick() {
+    valor = document.querySelector("#teste").value
+    if(valor === "tutu"){
+        window.alert(`oii ${valor}`)
+    }else if (valor != "tutu") {
+        window.alert("[ERROR] Senha inválida!!!")
+    } 
+}
 
 
 
