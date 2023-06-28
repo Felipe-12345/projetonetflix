@@ -94,8 +94,8 @@ function clicara1() {
 
     txt = document.querySelector('.titulo')
     stxt = document.querySelector('.sub-titulo')
-    txt.style.fontSize = '3.2em'
-    stxt.style.fontSize = '2.8em'
+    txt.style.fontSize = '3.0em'
+    stxt.style.fontSize = '2.5em'
     txt.style.paddingTop= '260px'
     txt.innerHTML = 'Dois Corações:'
     stxt.innerHTML = 'Um Destino'
