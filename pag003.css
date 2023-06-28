@@ -175,7 +175,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-.ar > h1{
+.titulo{
   line-height: 35px;
   font-size: 2.2em;
   font-weight: lighter;
@@ -186,7 +186,7 @@ nav {
   text-align: center;
 }
 
-.titulo{
+.sub-titulo{
   
   font-family: 'love';
     color: white;

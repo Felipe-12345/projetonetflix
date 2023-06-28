@@ -3,13 +3,38 @@ function clicar(){
     img.style.backgroundImage = "url('fotos/A1.jpg')"
     menu = document.querySelector('.menu')
     menu.style.background = "linear-gradient(to top,black 0.1%, #83C1D0, #B4E6FD, #DDAC67, #848C41)"
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.6em'
+    stxt.style.fontSize = '2.0em'
+    txt.style.paddingTop= '280px'
+    txt.innerHTML = 'Ondas do Amor:'
+    stxt.innerHTML = 'Águas Rasas'
+    
 }
+
+/*
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '280px'
+    txt.innerHTML = 'Ondas do Amor:'
+    stxt.innerHTML = 'Águas Rasas'
+*/
 
 function clicar2(){
     img = document.querySelector('.ar')
     img.style.backgroundImage = "url('fotos/A2.JPEG')"
     menu = document.querySelector('.menu')
     menu.style.background = "linear-gradient(to top, black 0.1%,#9CACC3, #45504B, #837B67)"
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.2em'
+    stxt.style.fontSize = '1.7em'
+    txt.style.paddingTop= '140px'
+    txt.innerHTML = 'O Caminho do Amor:'
+    stxt.innerHTML = 'Uma Jornada de Encontros e Desafios'
 }
 
 function clicar3(){
@@ -18,6 +43,13 @@ function clicar3(){
     ar = document.querySelector('.ar')
     ar.style.backgroundPosition = 'center center'
     menu.style.background = "linear-gradient(to top, black 0.1%,#CCE2B3, #D8E172, #D0EE89,#2D4535 )"
+    txt = document.querySelector('.titulo')
+    stxt = document.querySelector('.sub-titulo')
+    txt.style.fontSize = '2.3em'
+    stxt.style.fontSize = '1.7em'
+     txt.style.paddingTop= '275px'
+     txt.innerHTML = 'Segredos do Coração:'
+     stxt.innerHTML = 'Entre Amores e Mistérios'
 }
 
 function clicar4(){
