@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="senha.css">
+    <title>Meu amor</title>
+    <style>
+        /* Estilos CSS adicionais */
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button-container .button2 {
+            transition: transform 0.1s ease;
+        }
+        .button-container .button2.move-up {
+            transform: translateY(-50px);
+        }
+        .button-container .button2.move-down {
+            transform: translateY(50px);
+        }
+        .button-container .button2.move-left {
+            transform: translateX(-50px);
+        }
+        .button-container .button2.move-right {
+            transform: translateX(50px);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="fotos/gatos.gif" alt="">
+            <h1>quero seu beijinho, vem mim bjar pufavoo.. você vai me dar mt beijinho? </h1>
+
+            <div class="button-container">
+                <input class="button1" type="button" value="Sim" onclick="clicar()">
+
+                <input class="button2" type="button" value="Não" onclick="moveButton()">
+            </div>
+        </section>
+
+            <div class="section1">
+                <div>
+                    <h1>awdadada</h1>
+                </div>
+            </div>
+               
+    </main>
+    
+
+    <script>
+        var button = document.querySelector('.button2');
+        var directions = ['move-up', 'move-down', 'move-left', 'move-right'];
+        var currentIndex = 0;
+
+        function moveButton() {
+            button.classList.remove(directions[currentIndex % directions.length]);
+            currentIndex++;
+            button.classList.add(directions[currentIndex % directions.length]);
+        }
+
+        function clicar(){
+            paginas = document.querySelector('section')
+
+            paginas.style.display = 'none'
+
+            
+        }
+    </script>
+</body>
+</html>

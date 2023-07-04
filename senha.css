@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 240, 242);
+}
+
+main{
+    height: 1000px;
+    width: 100vw;
+    position: relative;
+}
+
+section{
+    background-color: rgb(238, 212, 225);
+    height: 600px;
+    width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height: 300px;
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h1{
+    color: rgb(224, 22, 174);
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 20px;
+    width: 90vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.315);
+}
+input:hover{
+    height: 38px;
+    width: 98px;
+}
+
+.button1{
+    background-color: rgb(245, 174, 190);
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.button2{
+    background-color: rgb(236, 74, 109);
+    position: absolute;
+    top: 70%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-container .button2.move {
+    animation: moveButton 1s linear;
+}
+@keyframes moveButton {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+.section1{
+    height: 300px;
+    background-color: rgb(238, 212, 225);
+    height: 600px;
+    width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
