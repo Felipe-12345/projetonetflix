@@ -163,7 +163,7 @@ function clicara5(){
 function testButtonClick() {
     valor = document.querySelector("#teste").value
     if(valor === "tutu"){
-        window.alert(`oii ${valor}`)
+        window.alert(`https://www.youtube.com/results?search_query=tutorial+angular`)
     }else if (valor != "tutu") {
         window.alert("[ERROR] Senha inválida!!!")
     } 
