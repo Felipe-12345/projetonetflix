@@ -473,24 +473,11 @@ img{
     border-radius: 7px;
   }
 
-  footer{
-   
-    background-color: rgb(29, 28, 28);
-    height: 38px;
-    
-  }
 
-  footer > h1 {
-    text-align: center;
-    font-size: 12px;
-    font-weight: lighter;
-    padding-top: 14px;
-    color: white;
-  }
 
  
   .area{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(22, 22, 22);
     border-radius: 20px;
     margin: auto;
     margin-bottom: 10px;
@@ -504,8 +491,8 @@ img{
     color: white;
     text-align: center;
     font-weight: lighter;
-    font-size: 1.5em;
-    margin-top: 10;
+    font-size: 1.3em;
+    padding-top: 20px;
   }
 
   .campo {
@@ -542,7 +529,7 @@ img{
   .buton{
     height: 32px;
     width: 176px;
-    border-radius: 6px;
+    border-radius: 7px;
     font-size: 14px;
     background-color: rgba(255, 0, 0, 0.288);
     color: white;
@@ -551,12 +538,27 @@ img{
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid rgba(255, 255, 255, 0.815);
+    border: 2px solid rgba(255, 255, 255, 0.575);
     
   }
 
   .buton:focus{
     border: 2px solid white;
+  }
+
+  footer{
+   
+    background-color: rgb(29, 28, 28);
+    height: 38px;
+    
+  }
+
+  footer > h1 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-top: 14px;
+    color: white;
   }
 
 
