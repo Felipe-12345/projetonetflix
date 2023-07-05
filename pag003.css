@@ -529,7 +529,7 @@ img{
   .buton{
     height: 32px;
     width: 176px;
-    border-radius: 2px;
+    border-radius: 0px;
     font-size: 14px;
     background-color: rgba(255, 0, 0, 0.288);
     color: white;
