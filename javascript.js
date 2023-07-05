@@ -162,10 +162,10 @@ function clicara5(){
 
 function testButtonClick() {
     valor = document.querySelector("#teste").value
-    if(valor === "tutu"){
-        window.alert(`Oii meu amor, clicando aqui vou te redirecionar para uma página que eu criei para voxee ta baummmm :)`)
+    if(valor === "Segredo"){
+        window.alert(`Oii meu amor, clicando aqui vou te redirecionar para uma outra página sua ta baummm :) amor vc`)
         window.location.href = "pagsenha.html";
-    }else if (valor != "tutu") {
+    }else if (valor != "Segredo") {
         window.alert("[ERROR] Senha inválida!!!")
     } 
 }
