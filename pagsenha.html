@@ -44,7 +44,10 @@
 
             <div class="section1">
                 <div>
-                    <h1>awdadada</h1>
+                    <img class="oii" src="fotos/outrogato.gif" alt="">
+                    <p>Amor da minha vida, amo muito você ta baum :D, quero me casar com você se Deus quiser.. mesmo que a gente discute bastante as vezes eu amo muito vc e quero que continuemos juntos até o fim minha princesa ^^  &#x2764; &#x2764;</p>
+
+                    <p class="p" >Digite "Eu tbm te amo" para voltar para o seu site <input type="text" name="voltar" id="voltar" onclick="voltar()"></p>
                 </div>
             </div>
                
@@ -64,11 +67,23 @@
 
         function clicar(){
             paginas = document.querySelector('section')
+            gato = document.querySelector('.section1')
 
             paginas.style.display = 'none'
-
-            
+            gato.style.display = 'block'    
         }
+
+        var input = document.getElementById('#voltar');
+
+        input.addEventListener('keydown', function(event) {
+        if (event.keyCode === 13 && input.value === "Eu tbm te amo") {
+        event.preventDefault(); 
+        window.location.href = 'pag003.html'
+        } else if (event.keyCode === 13 != input.value === "Eu também te amo muito"){
+            alert('você não digitou "Eu tbm te amo" :( naum mim ama mais naum :( ')
+        }
+});
+
     </script>
 </body>
 </html>
