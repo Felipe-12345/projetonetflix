@@ -477,7 +477,7 @@ img{
 
  
   .area{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     margin: auto;
     margin-bottom: 10px;
@@ -497,7 +497,7 @@ img{
 
   .campo {
     background-color: rgba(224, 0, 0, 0.253);
-    border-radius: 7px;
+    border-radius: 1px;
     height: 35px;
     width: 180px;
     margin-bottom: 10px;
@@ -511,7 +511,7 @@ img{
   #teste{
     font-size: 16px;
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
     
     border: none;
     height: 100%;
@@ -529,11 +529,11 @@ img{
   .buton{
     height: 32px;
     width: 176px;
-    border-radius: 7px;
+    border-radius: 2px;
     font-size: 14px;
     background-color: rgba(255, 0, 0, 0.288);
     color: white;
-    border: none;
+
     position: absolute;
     top: 70%;
     left: 50%;
