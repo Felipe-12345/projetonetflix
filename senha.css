@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -71,6 +72,7 @@ input:hover{
     top: 70%;
     left: 32%;
     transform: translate(-50%, -50%);
+    color: black;
 }
 
 .button2{
@@ -79,6 +81,7 @@ input:hover{
     top: 70%;
     left: 67%;
     transform: translate(-50%, -50%);
+    color: black;
 }
 
 .button-container {
